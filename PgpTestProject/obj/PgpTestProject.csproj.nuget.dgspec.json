@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\PgpTestProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\PgpTestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\PgpTestProject.csproj",
+        "projectName": "PgpTestProject",
+        "projectPath": "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\PgpTestProject.csproj",
+        "packagesPath": "C:\\Users\\ccozv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ccozv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "BouncyCastle.OpenPGP": {
+              "target": "Package",
+              "version": "[2.0.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

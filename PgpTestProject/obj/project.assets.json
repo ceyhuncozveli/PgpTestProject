@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BouncyCastle.OpenPGP/2.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BouncyCastle.OpenPgp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/BouncyCastle.OpenPgp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BouncyCastle.OpenPGP/2.0.0.1": {
+      "sha512": "xxBIn/f5Xm1MvIqwrw/ROpvKcHc5anILnHpXjJZao5QMjMiE1ziRKTX4mtRxiZSVYww1FB01GFfiSL5TtrVRQQ==",
+      "type": "package",
+      "path": "bouncycastle.openpgp/2.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "bouncycastle.openpgp.2.0.0.1.nupkg.sha512",
+        "bouncycastle.openpgp.nuspec",
+        "lib/net461/BouncyCastle.OpenPgp.dll",
+        "lib/net461/BouncyCastle.OpenPgp.xml",
+        "lib/net6.0/BouncyCastle.OpenPgp.dll",
+        "lib/net6.0/BouncyCastle.OpenPgp.xml",
+        "lib/netstandard2.0/BouncyCastle.OpenPgp.dll",
+        "lib/netstandard2.0/BouncyCastle.OpenPgp.xml",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "BouncyCastle.OpenPGP >= 2.0.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ccozv\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\PgpTestProject.csproj",
+      "projectName": "PgpTestProject",
+      "projectPath": "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\PgpTestProject.csproj",
+      "packagesPath": "C:\\Users\\ccozv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ccozv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "BouncyCastle.OpenPGP": {
+            "target": "Package",
+            "version": "[2.0.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

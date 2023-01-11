@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PgpTestProject/1.0.0": {
+        "dependencies": {
+          "BouncyCastle.OpenPGP": "2.0.0.1"
+        },
+        "runtime": {
+          "PgpTestProject.dll": {}
+        }
+      },
+      "BouncyCastle.OpenPGP/2.0.0.1": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.OpenPgp.dll": {
+            "assemblyVersion": "2.0.0.1",
+            "fileVersion": "2.0.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PgpTestProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle.OpenPGP/2.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xxBIn/f5Xm1MvIqwrw/ROpvKcHc5anILnHpXjJZao5QMjMiE1ziRKTX4mtRxiZSVYww1FB01GFfiSL5TtrVRQQ==",
+      "path": "bouncycastle.openpgp/2.0.0.1",
+      "hashPath": "bouncycastle.openpgp.2.0.0.1.nupkg.sha512"
+    }
+  }
+}

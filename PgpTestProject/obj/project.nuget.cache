@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JVEt84m+r9m5d2mffbks3f0RPDH920BO4EqL383G60kIknkYu+Yc4M5pgny1jiUl2bpWv0NCK2wGq86tR9C2LQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ccozv\\source\\repos\\PgpTestProject\\PgpTestProject\\PgpTestProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ccozv\\.nuget\\packages\\bouncycastle.openpgp\\2.0.0.1\\bouncycastle.openpgp.2.0.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
